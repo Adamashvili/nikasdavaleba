@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-    <div className={ricxvi > 5 ? 'meore' : 'pirveli'} id='card'>
+    <div className={ricxvi > 6 ? 'meore' : 'pirveli'} id='card'>
       <p style={ricxvi > 10 ? {color: 'red'} : {color: 'green'}}> {ricxvi > 10 ? 'Too Many' : 'Norm'}</p>
     <h1 style={ricxvi > 5 ? {color: 'red', fontFamily:'monospace' } : {color: 'green', fontFamily: 'cursive'}}>{ricxvi}</h1>
       {/* <button onClick={klikisLogika}>+</button>
